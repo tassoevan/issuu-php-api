@@ -1,0 +1,20 @@
+{
+    "name": "tassoevan/issuu-php-api",
+    "description": "An unofficial client for the Issuu API",
+    "require": {
+        "guzzlehttp/guzzle": "4.1.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tasso Evangelista",
+            "email": "tasso@tassoevan.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "TassoEvan\\APIs\\Issuu\\": "./"
+        }
+    }
+}
